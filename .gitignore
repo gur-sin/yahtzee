@@ -1,1 +1,16 @@
-./models/
+# Ignore models directory (LLM weights, large files)
+models/
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Go build artifacts
+bin/
+*.exe
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
